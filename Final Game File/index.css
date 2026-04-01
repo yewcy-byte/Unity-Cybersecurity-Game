@@ -1,0 +1,693 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+.registerPage{
+    display: flex;
+    width: 100%;
+}
+
+.registerBlackScreen{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    min-height: 100vh;
+
+    background-image:url('TemplateData/WhatsApp Image 2026-03-07 at 8.49.26 PM.jpeg'); 
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.registerScreen{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.registerScreenInformation{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    align-self: center;
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px grey;
+    padding: 0 40px;
+    
+}
+
+#createAccount {
+    font-size: 35px;
+    font-weight: bold;
+    align-self: center;
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.inputFields{
+    width: 100%;
+    margin-top:10px ;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+}
+
+.allInputFields{
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    border: none ;
+    outline: none ;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.allInputFields::placeholder {
+    opacity: 0;
+}
+
+#AlreadyHaveAccount {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif ;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#registerLogin{
+    border: 1px solid rgb(237, 231, 231);
+    background-color: #007BFF;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: auto;
+    color: white;
+    font-size: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+.signUpButton{
+    display: block;
+    margin: 20px auto 0;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px grey;
+    transition: all 0.5s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+     
+}
+
+.signUpButton span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+}   
+
+.signUpButton span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.signUpButton:hover span {
+    padding-right: 25px;
+}
+
+.signUpButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.signUpButton:active{
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+/*login*/
+
+.loginPage{
+    display: flex;
+    width: 100%;
+}
+
+.loginBlackScreen{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    min-height: 100vh;
+    background-image:url('TemplateData/WhatsApp Image 2026-03-07 at 8.49.26 PM.jpeg'); 
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.loginScreen{
+    display: flex;      
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-width: 300px;
+    height: 100vh; 
+    margin-bottom:20px ;
+}
+
+.loginInformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px grey;
+    padding-left:50px ;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}  
+
+#welcomeBack{
+    font-size: 35px;
+}
+
+.inputFields{
+    margin:0 auto ;
+    width: 80%;
+}
+
+
+.loginInformation{
+    font-family: system-ui,
+     -apple-system, BlinkMacSystemFont, 
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 16px;
+}
+
+#orLoginWith{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 16px;
+
+}
+
+#dontHaveAccount{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 16px;
+    
+
+}
+
+#forgotPassword{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 16px;
+}
+   
+
+#forgotPasswordButton{
+    border: 1px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px auto 0; 
+    
+
+}
+
+#forgotPasswordButton:hover {
+    color: #0056b3;
+}
+
+#forgotPasswordlink{
+    text-decoration: none;
+    color: black;
+}
+
+.loginButton span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+}   
+
+.loginButton span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.loginButton:hover span {
+    padding-right: 25px;
+}
+
+.loginButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.loginButton:active{
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.loginButton{
+    display: block;
+    margin: 16px auto 0;
+    justify-content: center;
+    width: 260px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px grey;
+    transition: all 0.5s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: center;
+}
+#dontHaveAccount{
+    margin-top: 20px;
+}
+
+#dontHaveAccountLink{
+    border: 1px solid rgb(40, 167, 69);
+    border-radius: 10px;
+    background-color: #28A745;
+    padding: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    .registerBlackScreen{
+        display: none !important;
+    }
+
+    .registerPage {
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .registerBlackScreen {
+        display: none;
+    }
+
+    .registerScreen{
+        width: 100%;
+        min-width: 0;
+        align-items: stretch;      
+        padding: 0 16px;    
+    }
+
+    .registerScreenInformation {
+        width: 100%;
+        padding: 16px 20px;
+        font-size: 20px;
+        border: none;
+        box-shadow: none;
+    }
+
+    #createAccount {
+        display: block; 
+        font-size: 35px !important;
+        text-align: center;
+
+    }
+
+    .allInputFields {
+        width: 100%;
+        font-size: 20px;
+        justify-content: left;
+        text-align: left;
+        align-self: left;
+        align-items: left;
+    }
+
+    
+    .registerScreenInformation .inputFields { 
+    margin-left: 0; 
+    width: 100%;
+    }
+    .registerScreenInformation .allInputFields { 
+    width: 100%;
+    }
+
+
+    #AlreadyHaveAccount{
+        width: 100%;
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #registerLogin {
+        font-size: 22px;
+    }
+    
+    .signUpButton {
+        margin-left: 2px;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    /*login*/
+    .loginPage {
+        position: relative;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .loginBlackScreen {
+        display: none !important;
+    }
+
+    .loginScreen {
+       align-self: center;
+    }
+    
+   
+    .loginInformation{
+        width: 100%;
+        height: auto;           
+        padding: 16px 20px;     
+        box-shadow: none !important;
+        border: none !important;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;   
+        gap: 16px; 
+        }
+
+    #welcomeBack{
+        font-size: 32px;        
+        text-align: center;    
+        margin: 0;             
+        line-height: 1.2;     
+        }
+
+    
+    .loginInformation .inputFields,
+    .loginInformation .allInputFields{
+        width: 100%;
+        margin-right: 0;   
+        box-sizing: border-box;     
+        }
+
+   
+    #forgotPassword{
+        margin: 8px 0 0;
+        width: 100%;
+        text-align: center;
+        }
+
+    
+    .loginButton{
+        width: 100%;
+        max-width: 320px;
+        margin: 12px auto 0;
+        }
+    #dontHaveAccount{
+        width: 100%;
+        text-align: center;
+        margin: 16px 0 0;
+        }
+    }
+/*updated login page CSS*/
+
+:root{
+  --bg:#f6f7f9;
+  --card:#ffffff;
+  --text:#101113;
+  --muted:#858b93;
+  --primary:#0b0b0b;
+  --primary-hover:#161616;
+  --ring:#3b82f6;
+  --border:rgba(16,17,19,.08);
+  --shadow:0 10px 30px rgba(16,17,19,.10);
+}
+
+
+.loginPage{ min-height:100vh; background:var(--bg); }
+.loginScreen{ padding:24px 0; }
+
+
+
+.loginInformation{
+  background:var(--card);
+  color:var(--text);
+  border:1px solid var(--border);
+  box-shadow:var(--shadow);
+  border-radius:18px;
+  padding:56px 64px !important;
+  max-width:720px;
+  gap:18px;
+}
+
+
+#welcomeBack,
+#createAccount{
+  font-weight:900;
+  letter-spacing:.3px;
+  line-height:1.1;
+  margin:0 0 18px 0;
+  font-size:clamp(30px,3.4vw,44px);
+  text-transform:none; 
+}
+
+
+.inputFields{
+  width:100%;
+  margin:10px 0 4px;
+  font-size:15px;
+  font-weight:700;
+  color:var(--text);
+  opacity:.92;
+}
+
+
+.allInputFields{
+  width:100%;
+  height:50px;
+  border-bottom:2px solid rgba(16,17,19,.18);
+  padding:8px 2px;
+  background:transparent;
+  font-size:16px;
+  transition:border-color .2s ease, box-shadow .2s ease, background-color .2s ease, transform .08s ease;
+}
+.allInputFields::placeholder{ color:var(--muted); opacity:.55; }
+.allInputFields:hover{ border-bottom-color:rgba(16,17,19,.26); }
+.allInputFields:focus{
+  outline:none;
+  border-bottom-color:var(--ring);
+  box-shadow:0 3px 0 -1px var(--ring);
+  background:rgba(59,130,246,.04);
+}
+
+#forgotPasswordButton{
+  display: block;
+  margin: 16px auto; 
+  text-align: center;
+  background:#fff;
+  color:var(--primary);
+  border:1px solid var(--border);
+  padding:8px 14px;
+  font-size:20px;
+  border-radius:10px;
+  transition:transform .08s ease, box-shadow .2s ease, color .2s ease, border-color .2s ease, background-color .2s ease;
+}
+#forgotPasswordButton:hover{
+  border-color:rgba(16,17,19,.18);
+  box-shadow:0 6px 18px rgba(16,17,19,.08);
+  transform:translateY(-1px);
+}
+#forgotPasswordButton:active{ transform:translateY(0); }
+
+.loginButton,
+.signUpButton,
+#signUpButton{
+  width:100%;
+  max-width:380px;
+  height:56px;
+  border-radius:28px;
+  background:var(--primary);
+  color:#fff;
+  font-weight:800;
+  letter-spacing:.2px;
+  transition:transform .08s ease, box-shadow .2s ease, background-color .2s ease;
+  box-shadow:0 8px 20px rgba(16,17,19,.20);
+  margin:18px auto 0;
+  display:block;
+}
+.loginButton:hover,
+.signUpButton:hover,
+#signUpButton:hover{
+  background:var(--primary-hover);
+  box-shadow:0 12px 28px rgba(16,17,19,.22);
+  transform:translateY(-1px);
+}
+.loginButton:active,
+.signUpButton:active,
+#signUpButton:active{ transform:translateY(0); }
+.loginButton:focus-visible,
+.signUpButton:focus-visible,
+#signUpButton:focus-visible{
+  outline:3px solid var(--ring);
+  outline-offset:3px;
+}
+
+#dontHaveAccount{
+  width:100%;
+  text-align:center;
+  margin-top:18px !important;
+  color:var(--muted);
+  font-size:16px;
+}
+
+#dontHaveAccountLink{
+  display:inline-block;
+  margin-top:8px;
+  background:#fff;
+  color:var(--primary);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:8px 14px;
+  line-height:1;
+  box-shadow:none;
+  transition:transform .08s ease, box-shadow .2s ease, color .2s ease, border-color .2s ease, background-color .2s ease;
+}
+#dontHaveAccountLink:hover{
+  border-color:rgba(16,17,19,.18);
+  box-shadow:0 6px 18px rgba(16,17,19,.08);
+  transform:translateY(-1px);
+}
+
+#AlreadyHaveAccount{
+  width:100%;
+  text-align:center;
+  margin-top:18px !important;
+  color:var(--muted);
+  font-size:16px;
+}
+#registerLogin{
+  display:inline-block;
+  margin-top:8px;
+  background:#fff;
+  color:var(--primary);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:8px 14px;
+  line-height:1;
+  transition:transform .08s ease, box-shadow .2s ease, color .2s ease, border-color .2s ease, background-color .2s ease;
+}
+#registerLogin:hover{
+  border-color:rgba(16,17,19,.18);
+  box-shadow:0 6px 18px rgba(16,17,19,.08);
+  transform:translateY(-1px);
+}
+
+.loginInformation hr{
+  width:100%; height:1px; border:0;
+  background:linear-gradient(90deg, transparent, rgba(16,17,19,.12), transparent);
+  margin:10px 0 2px;
+}
+
+
+@media (max-width:900px){
+  .loginInformation{
+    padding:32px 22px !important;
+    border:none;
+    box-shadow:none;
+    background:transparent;
+    gap:14px;
+  }
+  #welcomeBack,#registerTitle,#createAccountTitle{
+    font-size:clamp(26px,5.2vw,34px);
+  }
+  .loginButton,.signUpButton,#signUpButton{ max-width:100%; }
+}

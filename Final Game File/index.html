@@ -1,0 +1,116 @@
+@ -1,115 +0,0 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/jpeg" href="favicon.jpg?v=1">
+
+</head>
+<body>
+    <div class="registerPage">
+        <div class="registerBlackScreen"></div>
+        <div class="registerScreen">
+            <div class="registerScreenInformation">
+                <h1 id="createAccount">CREATE ACCOUNT</h1>
+                <div class="WholeRegisaterInformation">
+                    <form onsubmit="event.preventDefault(); handleRegister();">
+                        <div class="inputFields">
+                            Username:<br>
+                            <input class="allInputFields" type="text" placeholder="Username" id="username" required><br>
+                            
+                            Email:<br>
+                            <input class="allInputFields" type="email" placeholder="Email" id="email" required><br>
+                    
+                            Password:<br>
+                            <input class="allInputFields" type="password" placeholder="Password" id="password" required><br>
+                    
+                            Confirm Password:<br>
+                            <input class="allInputFields" type="password" placeholder="Confirm Password" id="confirmPassword" required>
+                        </div>
+
+                        <a href="login.html" id="AlreadyHaveAccount">
+                            Already have an account? <span id="registerLogin">Login</span>
+                        </a>
+    
+                        <button type="submit" class="signUpButton"><span>Sign up</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module">
+  
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+  import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+  import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+
+  const firebaseConfig = {
+        apiKey: "REPLACE_WITH_FIREBASE_API_KEY",
+    authDomain: "unity-cyber-game.firebaseapp.com",
+    projectId: "unity-cyber-game",
+    storageBucket: "unity-cyber-game.firebasestorage.app",
+    messagingSenderId: "1068419443054",
+    appId: "1:1068419443054:web:88c1edfadb4cfb7880b97f",
+    measurementId: "G-F4VV3K45BR"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const db = getFirestore(app);
+
+
+  window.handleRegister = async () => {
+      const username = document.getElementById('username').value;
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      const confirmPassword = document.getElementById('confirmPassword').value;
+
+      if(password !== confirmPassword) {
+          alert("Two passwords do not match!");
+          return;
+      }
+
+      try {
+          const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+          const user = userCredential.user;
+
+      
+          await setDoc(doc(db, "users", user.uid), {
+              username: username,
+              email: email,
+              role: "user",
+              createdAt: new Date()
+          });
+
+          alert("Register Sucessful! Please login.");
+          window.location.href = "login.html"; 
+      } catch (error) {
+          console.error("wrong code: " + error.code);
+          alert("wrong code: " + error.message);
+      }
+  };
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

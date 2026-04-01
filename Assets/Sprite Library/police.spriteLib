@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
+  m_Library:
+  - m_Name: sprites
+    m_Hash: 210529479
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: robot sprite combo_0
+      m_Hash: 34797817
+      m_Sprite: {fileID: 3632790483837689387, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3632790483837689387, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_1
+      m_Hash: 890620015
+      m_Sprite: {fileID: -213272002887950425, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -213272002887950425, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_2
+      m_Hash: 740071893
+      m_Sprite: {fileID: 7452493087791103236, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7452493087791103236, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_3
+      m_Hash: 454797635
+      m_Sprite: {fileID: 2141549055621260126, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2141549055621260126, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_4
+      m_Hash: 92224736
+      m_Sprite: {fileID: -7089294700134236756, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7089294700134236756, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_5
+      m_Hash: 846728310
+      m_Sprite: {fileID: -8344489695887983915, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8344489695887983915, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_6
+      m_Hash: 728849868
+      m_Sprite: {fileID: 9095792485607354566, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 9095792485607354566, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_7
+      m_Hash: 477523290
+      m_Sprite: {fileID: 1512789594392484664, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1512789594392484664, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_8
+      m_Hash: 214528203
+      m_Sprite: {fileID: 7752999959937247360, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7752999959937247360, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_9
+      m_Hash: 1003372637
+      m_Sprite: {fileID: -2047805266758677898, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2047805266758677898, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_10
+      m_Hash: 694400544
+      m_Sprite: {fileID: 4865335895340902137, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4865335895340902137, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    - m_Name: robot sprite combo_11
+      m_Hash: 509904566
+      m_Sprite: {fileID: -8087547544820473903, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8087547544820473903, guid: 36c5f718128c19244a19dea7e643f4d7, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 12
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 639042986222898392
+  m_Version: 1

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a424f8f278d7aae458f1971dd6a5ec2d, type: 3}
+  m_Name: NewNPCDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Police
+  npcPortrait: {fileID: 567665355, guid: 64091d118aff1054fad18caf9a6ce251, type: 3}
+  dialogueLines:
+  - Welcome to the login page!
+  - What are you doing here?
+  - Its one of them green ones
+  - Hope this helps
+  - you can click on it to open it
+  - Good luck man, I mean bot
+  - Then stop wasting my time please
+  typingSpeed: 0.05
+  voicePitch: 1
+  autoProgressLines: 01010101010000
+  endDialogueLines: 00000000000101
+  autoProgressDelay: 0.5
+  voiceClip: {fileID: 8300000, guid: fff8221d6f8529040887ca46e625c31d, type: 3}
+  Goodluck: {fileID: 8300000, guid: 0d1f6dd68b3522e4e84992ddd322eba9, type: 3}
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Im looking for input fields
+    - Nothing
+    nextDialogueIndexes: 0200000006000000
+    OptionsAudio:
+    - {fileID: 8300000, guid: 1303bbc7765100843871004bcae5f261, type: 3}
+    - {fileID: 8300000, guid: f679519c18336fb4692e8258ca133137, type: 3}
+    givesQuest: 0100
+  questInProgressIndex: 5
+  questCompletedIndex: 7
+  missions:
+  - {fileID: 11400000, guid: 1ad7ec2e0500317428f2f39ef0838892, type: 2}
+  - {fileID: 11400000, guid: 292c0b2bfb7c1264a9b2c18c888ff5df, type: 2}
+  - {fileID: 11400000, guid: 2074c4c0ee6118748b21167e4a13b9c5, type: 2}

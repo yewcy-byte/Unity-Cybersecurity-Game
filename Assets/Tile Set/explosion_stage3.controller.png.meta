@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: 7e25a39ecdf48ce47ba4adbb51afb3bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1272099912246797303
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_0
+  - first:
+      213: 7284987285677105705
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_1
+  - first:
+      213: 232658839877828585
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_2
+  - first:
+      213: -1775144891962382682
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_3
+  - first:
+      213: -4197762145372173190
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_4
+  - first:
+      213: -4747009246062385224
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_5
+  - first:
+      213: -9148111063372241339
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_6
+  - first:
+      213: -6866960333670650256
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_7
+  - first:
+      213: -6300817399556924986
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_8
+  - first:
+      213: 2634936426324197456
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_9
+  - first:
+      213: -3726462200317538392
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_10
+  - first:
+      213: 3966442276680624576
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_11
+  - first:
+      213: -2796095590205745375
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_12
+  - first:
+      213: -3292072943418373092
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_13
+  - first:
+      213: 2034443244553769004
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_14
+  - first:
+      213: -2135895736046134478
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_15
+  - first:
+      213: -7112771288053790359
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_16
+  - first:
+      213: 2673034342125744923
+    second: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 564
+        width: 240
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c59b3aed7985ee0800000000000000
+      internalID: -1272099912246797303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 524
+        width: 304
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922650cb659791560800000000000000
+      internalID: 7284987285677105705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 452
+        width: 496
+        height: 480
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efb5c07bf19a3300800000000000000
+      internalID: 232658839877828585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_3
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 436
+        width: 480
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6abb9302b6d57e0800000000000000
+      internalID: -1775144891962382682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 44
+        width: 408
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c8289c19d8eb5c0800000000000000
+      internalID: -4197762145372173190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 78
+        width: 363
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7e4fecd3c3f1eb0800000000000000
+      internalID: -4747009246062385224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_6
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 92
+        width: 315
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54660e5e4716b0180800000000000000
+      internalID: -9148111063372241339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_15
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 143
+        width: 270
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bd2bff426cb52e0800000000000000
+      internalID: -2135895736046134478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a9b13dabf6107514f928463904e0eb73
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":500.0,"y":500.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_0: -1272099912246797303
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_1: 7284987285677105705
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_10: -3726462200317538392
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_11: 3966442276680624576
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_12: -2796095590205745375
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_13: -3292072943418373092
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_14: 2034443244553769004
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_15: -2135895736046134478
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_16: -7112771288053790359
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_17: 2673034342125744923
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_2: 232658839877828585
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_3: -1775144891962382682
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_4: -4197762145372173190
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_5: -4747009246062385224
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_6: -9148111063372241339
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_7: -6866960333670650256
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_8: -6300817399556924986
+      stages-destructive-pixel-explosion-illustration-initial-flash-increase-in-fireball-and-red-powerful-detonation-with-smoke-dispersion-and-disappearance-gray-clouds-vector_9: 2634936426324197456
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

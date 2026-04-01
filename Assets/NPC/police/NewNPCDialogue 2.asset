@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a424f8f278d7aae458f1971dd6a5ec2d, type: 3}
+  m_Name: NewNPCDialogue 2
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Police
+  npcPortrait: {fileID: 567665355, guid: 64091d118aff1054fad18caf9a6ce251, type: 3}
+  dialogueLines:
+  - Hey Stop right there!
+  - let me see what you are doing
+  - Oh a customer
+  - I never seen somebody so blue
+  - here is the guide to the kiosk
+  - sorry for disturbing you
+  - Security breach! Get out of here
+  - you've got everything you need, check out the book
+  typingSpeed: 0.07
+  voicePitch: 1
+  autoProgressLines: 01010101010000
+  endDialogueLines: 00000000000101
+  autoProgressDelay: 0.5
+  voiceClip: {fileID: 8300000, guid: c2da7910b4a0f7945ab67cbd5c3b308c, type: 3}
+  Goodluck: {fileID: 8300000, guid: 40160fddf985bf24e926cb3645b93369, type: 3}
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Im a customer
+    - Nothing
+    nextDialogueIndexes: 0200000006000000
+    OptionsAudio:
+    - {fileID: 8300000, guid: 84f0edd63eca1f842aff856c8d71d822, type: 3}
+    - {fileID: 8300000, guid: 72f7fe5a41ef80d47a0469382e032a06, type: 3}
+    givesQuest: 0100
+  questInProgressIndex: 7
+  questCompletedIndex: 7
+  missions:
+  - {fileID: 11400000, guid: 004e76d5f9b422547ab78d289ce1035c, type: 2}
+  - {fileID: 11400000, guid: 886f2b13a8b88f746b2a4e3c1b7e4701, type: 2}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a424f8f278d7aae458f1971dd6a5ec2d, type: 3}
+  m_Name: NewNPCDialogue 5
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Police
+  npcPortrait: {fileID: 567665355, guid: 64091d118aff1054fad18caf9a6ce251, type: 3}
+  dialogueLines:
+  - Hey good sir, exhausted huh?
+  - Can you believe I have been walking this far to work
+  - Oh, you are new here huh?
+  - I cant walk you there but...
+  - You see these pillars?
+  - Just follow the pillars
+  - Yea...
+  - You make sure you dont do anything sus
+  typingSpeed: 0.045
+  voicePitch: 1
+  autoProgressLines: 01010101010000
+  endDialogueLines: 00000000000101
+  autoProgressDelay: 0.5
+  voiceClip: {fileID: 8300000, guid: ece564f913ad56d4eb7974841a2308e1, type: 3}
+  Goodluck: {fileID: 8300000, guid: 9ace80cd7a93d5f47ac5c6ea2ae0bbb8, type: 3}
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Where is it?
+    - Yea...
+    nextDialogueIndexes: 0200000006000000
+    OptionsAudio:
+    - {fileID: 8300000, guid: 4da84629197ab7b4a8db0e158d705531, type: 3}
+    - {fileID: 8300000, guid: a1c53afff934e9940be9981765a1d204, type: 3}
+    givesQuest: 0100
+  questInProgressIndex: 7
+  questCompletedIndex: 7
+  missions:
+  - {fileID: 11400000, guid: 490919d368b875b48a7373fa68cca68f, type: 2}
+  - {fileID: 11400000, guid: 8fd7c1e9711aa6844b6452ba76412280, type: 2}
+  - {fileID: 11400000, guid: 747766e4f10a5e44bacbee1acf417be1, type: 2}
+  - {fileID: 11400000, guid: bea9a576254d3ef419ec8aae178fd1e8, type: 2}
+  - {fileID: 11400000, guid: 9e9c852f2456e1f45945609828caace0, type: 2}
+  - {fileID: 11400000, guid: 9d0fd1f8ccbcbb346a4d5f30386929e6, type: 2}
+  - {fileID: 11400000, guid: 254e94d8b6e57bd44b3ad430a1d17905, type: 2}

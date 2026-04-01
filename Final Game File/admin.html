@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Console - Penetration Education</title>
+    <link rel="stylesheet" href="admin_styles.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Penetration Education</h2>
+        <h3>Admin Console</h3>
+        <nav>
+            <ul>
+                <li id="tab-user-settings">User Settings</li>
+                <li id="tab-user-game-data">User Game Data</li>
+                <li id="tab-admin-settings">Admin Settings</li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- User Settings Section -->
+        <div id="content-user-settings" class="content-section">
+            <h1>User Settings</h1>
+            <p>Select a user to view and manage their settings.</p>
+            
+            <div class="form-group">
+                <label for="user-select">Select User:</label>
+                <select id="user-select">
+                    <option value="">Loading users...</option>
+                </select>
+            </div>
+            
+            <div id="user-details" class="user-details" style="display: none;">
+                <h3>User Details</h3>
+                <div class="detail-item">
+                    <strong>Document ID:</strong> <span id="user-doc-id"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Username:</strong> <span id="user-username"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Email:</strong> <span id="user-email"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Creation Date:</strong> <span id="user-created"></span>
+                </div>
+                
+                <div class="delete-section">
+                    <div class="delete-message-container">
+                        <span id="delete-message" class="delete-message"></span>
+                    </div>
+                    <button id="delete-user-btn" class="delete-btn">Delete User</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- User Game Data Section -->
+        <div id="content-user-game-data" class="content-section" style="display: none;">
+            <h1>User Game Data</h1>
+            <p>Select a user to view their game progress and statistics.</p>
+            
+            <div class="form-group">
+                <label for="game-data-user-select">Select User:</label>
+                <select id="game-data-user-select">
+                    <option value="">Loading users...</option>
+                </select>
+            </div>
+            
+            <div id="game-data-details" class="user-details" style="display: none;">
+                <h3>Game Statistics</h3>
+                <div class="detail-item">
+                    <strong>Username:</strong> <span id="game-data-username"></span>
+                </div>
+                
+                <!-- Game Progression Section -->
+                <div id="game-progression-container" style="margin-top: 20px;">
+                    <h4 style="color: #e94560; margin-bottom: 10px;">Game Progression</h4>
+                    <div id="game-progression-content" class="nested-data">
+                        <!-- Dynamic content will be inserted here -->
+                    </div>
+                </div>
+                
+                <!-- Unity Game Save Object Section -->
+                <div id="unity-game-save-container" style="margin-top: 20px;">
+                    <h4 style="color: #e94560; margin-bottom: 10px;">Unity Game Save Data</h4>
+                    <div id="unity-game-save-content" class="nested-data">
+                        <!-- Dynamic content will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Admin Settings Section -->
+        <div id="content-admin-settings" class="content-section" style="display: none;">
+            <h1>Admin Settings</h1>
+            <p>Select an admin to view and manage their settings.</p>
+            
+            <!-- Add Admin Section -->
+            <div class="add-admin-section">
+                <button id="add-admin-btn" class="add-admin-btn">+ Add New Admin</button>
+            </div>
+            
+            <div class="form-group">
+                <label for="admin-select">Select Admin:</label>
+                <select id="admin-select">
+                    <option value="">Loading admins...</option>
+                </select>
+            </div>
+            
+            <div id="admin-details" class="user-details" style="display: none;">
+                <h3>Admin Details</h3>
+                <div class="detail-item">
+                    <strong>Document ID:</strong> <span id="admin-doc-id"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Username:</strong> <span id="admin-username"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Email:</strong> <span id="admin-email"></span>
+                </div>
+                <div class="detail-item">
+                    <strong>Creation Date:</strong> <span id="admin-created"></span>
+                </div>
+                
+                <div class="delete-section">
+                    <div class="delete-message-container">
+                        <span id="admin-delete-message" class="delete-message"></span>
+                    </div>
+                    <button id="delete-admin-btn" class="delete-btn">Delete Admin</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Admin Popup -->
+    <div id="add-admin-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Add New Admin</h3>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="new-admin-username">Username:</label>
+                    <input type="text" id="new-admin-username" placeholder="Enter username" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="new-admin-email">Email:</label>
+                    <input type="email" id="new-admin-email" placeholder="Enter email" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="new-admin-password">Password:</label>
+                    <input type="password" id="new-admin-password" placeholder="Enter password" autocomplete="off">
+                </div>
+                <div id="modal-message" class="modal-message"></div>
+            </div>
+            <div class="modal-footer">
+                <button id="modal-cancel-btn" class="cancel-btn">Cancel</button>
+                <button id="modal-confirm-btn" class="confirm-btn">Create Admin</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="admin_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/jpeg" href="favicon.jpg?v=1">
+</head>
+
+<body>
+
+    <div class="loginPage">
+        <div class="loginBlackScreen">
+        </div>
+        <div class="loginScreen">
+            <div class="loginInformation">
+                <h1 id="welcomeBack">Welcome Back!</h1>
+                <form id="loginForm">
+                    <div class="inputFields">
+                        <label for="username">Email:</label>
+                        <input class="allInputFields" type="text" placeholder="Email" id="username"
+                            name="loginUsername" required>
+
+                        <label for="password">Password:</label>
+                        <input class="allInputFields" type="password" placeholder="Password" id="password"
+                            name="loginPassword" required>
+                    </div>
+
+                    <button id="forgotPasswordButton" type="button"><a href="forgotPassword.php"
+                            id="forgotPasswordlink">Forgot Password</a></button>
+
+                    <div class="loginButtonClass">
+                        <button type="submit" class="loginButton"><span>Login</span></button>
+                    </div>
+                </form>
+                <p id="dontHaveAccount">
+                    Don't have an account? <a href="index.html" id="dontHaveAccountLink" type="button">Register</a>
+                </p>
+            </div>
+        </div>
+        <script type="module">
+            import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+            import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+            const firebaseConfig = {
+                apiKey: "REPLACE_WITH_FIREBASE_API_KEY",
+                authDomain: "unity-cyber-game.firebaseapp.com",
+                projectId: "unity-cyber-game",
+                storageBucket: "unity-cyber-game.firebasestorage.app",
+                messagingSenderId: "1068419443054",
+                appId: "1:1068419443054:web:88c1edfadb4cfb7880b97f",
+                measurementId: "G-F4VV3K45BR"
+            };
+            const app = initializeApp(firebaseConfig);
+            const auth = getAuth(app);
+            const db = getFirestore(app);
+
+            const loginForm = document.getElementById("loginForm");
+            loginForm.addEventListener('submit', async (e) => {
+                e.preventDefault(); 
+
+                const email = document.getElementById("username").value;
+                const password = document.getElementById("password").value;
+
+                try {
+                    const userCredential = await signInWithEmailAndPassword(auth, email, password);
+                    console.log("Login successful:", userCredential.user);
+                    const uid = userCredential.user.uid;
+
+                    const userDoc = await getDoc(doc(db, "users", uid));
+                    const role = userDoc.exists() ? userDoc.data().role : "user";
+
+                    if (role === "admin") {
+                        window.location.href = "admin.html";
+                    } else {
+                        window.location.href = `./game.html?uid=${encodeURIComponent(uid)}`;
+                    }
+                } catch (error) {
+                    alert("Login failed: " + error.message);
+                }
+            });
+
+        </script>
+</body>
+
+</html>
